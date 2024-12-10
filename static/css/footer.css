@@ -1,0 +1,46 @@
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100vw;
+    height: 20vh;
+    background-color: #262529;
+}
+.content{
+    margin-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sep{
+    width: 1px;
+    height: 80%;
+    background-color: white;
+}
+.socials{
+    display: flex;
+    height: 50%;
+    flex-direction: column;
+    margin-top: 0;
+}
+.social-para{
+    color: white;
+}
+#social-icon{
+    width: 1em;
+    height: 1em;
+}
+.svg{
+    display: flex;
+    margin-top: 10px;
+    gap: 8px;
+}
+.mail-us{
+    margin-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color:white;
+}

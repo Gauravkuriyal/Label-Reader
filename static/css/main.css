@@ -1,0 +1,73 @@
+
+/* HERO SECTION */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 10%;
+    width: 100%;
+    height: 90vh;
+    /* background-color:#f0f5f5; */
+    position: relative;
+    background: url("/static/images/foodBack.gif");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: 0px -150px;
+    /* overflow: hidden; */
+}
+.hero-section>div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: max(300px,50vw);
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.342); */
+    /* background-color: #ffffffb5; */
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.253);
+}
+.hero-section .heroText{
+    font-size: 5vw;
+    text-align: center;
+}
+.hero-section .heroText span{
+    background: url("/static/images/tirangaColor.jpg");
+    background-clip: text;
+    color: transparent;
+    background-size: cover;
+    font-weight: bolder;
+}
+#pringle{
+    width: 50%;
+    /* height: 100%; */
+    /* transform: translateX(27em); */
+}
+#lorem{
+    line-height: 170%;
+    text-align: center;
+}
+
+
+/* WHAT WE DO */
+.whatWeDo{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 2em 10%;
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    line-height: 180%;
+    color: #333;
+}
+.whatWeDo h1{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.whatWeDo p{
+    width: 80%;
+}
